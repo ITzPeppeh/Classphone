@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FEF0516-7130-4E2C-8A36-79F14A368E7E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Classphone</RootNamespace>
+    <AssemblyName>Classphone</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddressBook.Designer.cs">
+      <DependentUpon>AddressBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_RockPaperScissors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App_RockPaperScissors.Designer.cs">
+      <DependentUpon>App_RockPaperScissors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Tris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App_Tris.Designer.cs">
+      <DependentUpon>App_Tris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreYouSureQuestionMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreYouSureQuestionMark.Designer.cs">
+      <DependentUpon>AreYouSureQuestionMark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalculatorClass.cs" />
+    <Compile Include="changedeviceinfoform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changedeviceinfoform.Designer.cs">
+      <DependentUpon>changedeviceinfoform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Choose_backgroundcolor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose_backgroundcolor.Designer.cs">
+      <DependentUpon>Choose_backgroundcolor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_calendar.Designer.cs">
+      <DependentUpon>Form_calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactClass.cs" />
+    <Compile Include="DB_Settings.cs" />
+    <Compile Include="Form_AddContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AddContact.Designer.cs">
+      <DependentUpon>Form_AddContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ContactInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ContactInfo.Designer.cs">
+      <DependentUpon>Form_ContactInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_C_Device_Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_C_Device_Name.Designer.cs">
+      <DependentUpon>Form_C_Device_Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_C_Display_Sec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_C_Display_Sec.Designer.cs">
+      <DependentUpon>Form_C_Display_Sec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_C_Display_Sec2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_C_Display_Sec2.Designer.cs">
+      <DependentUpon>Form_C_Display_Sec2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_C_Select_Language.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_C_Select_Language.Designer.cs">
+      <DependentUpon>Form_C_Select_Language.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_C_Select_Zone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_C_Select_Zone.Designer.cs">
+      <DependentUpon>Form_C_Select_Zone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Home.Designer.cs">
+      <DependentUpon>Form_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_LockScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_LockScreen.Designer.cs">
+      <DependentUpon>Form_LockScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Notepad.Designer.cs">
+      <DependentUpon>Form_Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Welcome.Designer.cs">
+      <DependentUpon>Form_Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddressBook.resx">
+      <DependentUpon>AddressBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_RockPaperScissors.resx">
+      <DependentUpon>App_RockPaperScissors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_Tris.resx">
+      <DependentUpon>App_Tris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreYouSureQuestionMark.resx">
+      <DependentUpon>AreYouSureQuestionMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changedeviceinfoform.resx">
+      <DependentUpon>changedeviceinfoform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choose_backgroundcolor.resx">
+      <DependentUpon>Choose_backgroundcolor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_calendar.resx">
+      <DependentUpon>Form_calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_AddContact.resx">
+      <DependentUpon>Form_AddContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ContactInfo.resx">
+      <DependentUpon>Form_ContactInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_C_Device_Name.resx">
+      <DependentUpon>Form_C_Device_Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_C_Display_Sec.resx">
+      <DependentUpon>Form_C_Display_Sec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_C_Display_Sec2.resx">
+      <DependentUpon>Form_C_Display_Sec2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_C_Select_Language.resx">
+      <DependentUpon>Form_C_Select_Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_C_Select_Zone.resx">
+      <DependentUpon>Form_C_Select_Zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Home.resx">
+      <DependentUpon>Form_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_LockScreen.resx">
+      <DependentUpon>Form_LockScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Notepad.resx">
+      <DependentUpon>Form_Notepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Welcome.resx">
+      <DependentUpon>Form_Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rock-paper-scissors.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
